@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Day_3
 {
-    public class Program
+    class Program
     {
         public static List<string> data = File.ReadAllLines("E:\\Code\\Advent of Code\\Day 3\\data.txt").ToList();
         public static void Main(string[] args)

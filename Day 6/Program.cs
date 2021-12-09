@@ -12,7 +12,7 @@ namespace Day_6
         static void Main(string[] args)
         {
             // List<int> input = File.ReadAllLines("E:\\Code\\Advent of Code\\Day 1\\data.txt").Select(int.Parse).ToList();
-            List<int> input = File.ReadAllLines(args.FirstOrDefault() ?? "D:\\Advent of Code 2021\\Day 6\\data.txt").SelectMany(x => x.Split(',')).Select(int.Parse).ToList();
+            List<int> input = File.ReadAllLines(args.FirstOrDefault() ?? "Desktop\\data.txt").SelectMany(x => x.Split(',')).Select(int.Parse).ToList();
 
             Console.WriteLine($"Part 1 Result = {CountFish(input, 80)} ");
             Console.WriteLine($"Part 2 Result = {CountFish(input, 256)} ");
